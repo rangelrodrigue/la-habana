@@ -1,0 +1,87 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+/* *{
+    border: 4px solid red;
+} */
+body{
+    margin: 0;
+    text-align: center;
+    color:white;
+    text-shadow: 0 0 1px black;
+}
+.header{
+    background-image: url("images/header.jpg");
+    background-size: cover;
+    padding: 80px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.title {
+    background: #023047;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.subtitle{
+    background: #8ECAE6;
+    margin-top:40px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.main{
+    background: linear-gradient(#023047,#8ECAE6);
+}
+.main-title{
+    margin:0; 
+    padding-top: 40px;
+}
+.activity{
+    border-radius: 50%;
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+}
+.carnaval{
+    background-image: url("images/carnaval.jpg"); 
+}
+.zoo{
+    background-image: url("images/zoo.jpg"); 
+}
+.beisbol{
+    background-image: url("images/beisbol.jpg"); 
+}
+.activities{
+    display: flex;
+    justify-content: center;
+}
+.act{
+    width: 400px;
+    margin: 40px 40px 0 40px;
+}
+.card{
+    display: flex;
+    background: #219EBC;
+    margin: 40px auto;
+    width: 400px;
+    padding: 30px;
+    border-bottom: 10px solid #8ECAE6;
+    border-radius: 5px;    
+    text-align: center;
+}
+.img-foot{
+    width: 200px;
+    border-radius: 5px;
+}
+.card-content{
+    width: 200px;
+    margin: 0 0 0 20px;
+}
